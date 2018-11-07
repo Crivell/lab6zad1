@@ -1,8 +1,10 @@
+import Exceptions.OkladkaException;
+
 public class KsiazkaZOkladkaTwarda extends Dekoracje {
 
     String dek = "Ksiazka Z Okladka Twarda ";
 
-    KsiazkaZOkladkaTwarda  (Publikacja p){
+    KsiazkaZOkladkaTwarda  (Publikacja p) throws OkladkaException {
         super(p);
         p.setOkladka(dek);
     }

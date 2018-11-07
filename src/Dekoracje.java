@@ -1,3 +1,6 @@
+import Exceptions.ObwolutaException;
+import Exceptions.OkladkaException;
+import Exceptions.autografException;
 
 public abstract class Dekoracje extends Ksiazka implements Publikacja {
     protected Publikacja ksi;
@@ -15,21 +18,24 @@ public abstract class Dekoracje extends Ksiazka implements Publikacja {
 
     @Override
     public void setTytul(String t) {
-        ksi.setOkladka(t);
+        ksi.setTytul(t);
     }
 
     @Override
-    public void setAutograf(String t) {
+    public void setAutograf(String t) throws autografException {
+
         ksi.setAutograf(t);
     }
 
     @Override
-    public void setOkladka(String t) {
+    public void setOkladka(String t) throws OkladkaException {
+
         ksi.setOkladka(t);
     }
 
     @Override
-    public void setObwoluta(String t) {
+    public void setObwoluta(String t) throws ObwolutaException {
+
         ksi.setObwoluta(t);
     }
 }
