@@ -1,3 +1,6 @@
+import Dekorator.KsiazkaZObwoluta;
+import Dekorator.KsiazkaZOkladkaZwykla;
+import Dekorator.Publikacja;
 import Exceptions.ObwolutaException;
 import Exceptions.OkladkaException;
 

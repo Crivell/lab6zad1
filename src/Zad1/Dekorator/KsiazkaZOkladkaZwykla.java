@@ -1,10 +1,13 @@
+package Dekorator;
+
+import Dekorator.Publikacja;
 import Exceptions.OkladkaException;
 
 public class KsiazkaZOkladkaZwykla extends Dekoracje {
 
-    String dek = "Ksiazka Z OkladkaZwykla";
+    String dek = "Dekorator.Ksiazka Z OkladkaZwykla";
 
-    KsiazkaZOkladkaZwykla(Publikacja p) throws OkladkaException {
+    public KsiazkaZOkladkaZwykla(Publikacja p) throws OkladkaException {
         super(p);
         p.setOkladka(dek);
     }

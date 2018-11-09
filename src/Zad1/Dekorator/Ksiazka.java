@@ -1,3 +1,6 @@
+package Dekorator;
+
+import Dekorator.Publikacja;
 import Exceptions.ObwolutaException;
 import Exceptions.OkladkaException;
 import Exceptions.autografException;
@@ -22,7 +25,7 @@ public class Ksiazka implements Publikacja {
 
     @Override
     public String toString() {
-        return "Ksiazka" + autor +
+        return "Dekorator.Ksiazka" + autor +
                 " | " + tytul + " | " +
                  + ilStron;
     }
@@ -58,7 +61,7 @@ public class Ksiazka implements Publikacja {
         if(this.okladka == null){
             this.okladka = t;
         }else{
-            throw new OkladkaException("Ksiazka nie moze miec dwoch okladek");
+            throw new OkladkaException("Dekorator.Ksiazka nie moze miec dwoch okladek");
         }
     }
 }
