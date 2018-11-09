@@ -1,7 +1,5 @@
-package Dekorator;
+package Zad1.Dekorator;
 
-import Dekorator.Dekoracje;
-import Dekorator.Publikacja;
 import Exceptions.OkladkaException;
 import Exceptions.autografException;
 

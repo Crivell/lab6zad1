@@ -1,4 +1,4 @@
-package Dekorator;
+package Zad1.Dekorator;
 
 import Exceptions.ObwolutaException;
 import Exceptions.OkladkaException;

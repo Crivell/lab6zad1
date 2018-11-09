@@ -1,11 +1,10 @@
-package Dekorator;
+package Zad1.Dekorator;
 
-import Dekorator.Publikacja;
 import Exceptions.ObwolutaException;
 
 public class KsiazkaZObwoluta extends Dekoracje {
 
-    String dek = "Dekorator.Ksiazka Z Obwoluta";
+    String dek = "Zad1.Dekorator.Ksiazka Z Obwoluta";
 
     public KsiazkaZObwoluta(Publikacja p) throws ObwolutaException {
         super(p);
